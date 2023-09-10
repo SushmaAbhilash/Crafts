@@ -1,0 +1,45 @@
+@import "colors";
+
+footer{
+    background-color: $Purple;
+    height: 150px;
+    width: 100%;
+    color: $Butter;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    overflow-x: hidden;
+
+    > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        > h1 {
+            font: 700 2rem ;
+            text-transform: uppercase;
+            color: $Butter;
+        }
+        >p {
+            font: 500 1.2rem;
+        }
+        > h5{
+            font: 300 2rem;
+            text-align: center;
+            margin: 1rem 0;
+        }
+        > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+                color: $Mint;
+                font: 900 1rem;
+                margin-left: 12rem;
+
+                &:hover{
+                    color: $Butter;
+                }
+            }
+        }
+    }
+}

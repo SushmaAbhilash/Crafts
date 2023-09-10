@@ -1,0 +1,46 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pacifico&display=swap');
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: $Purple;
+    padding: 1rem;
+    top: 0%;  
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    overflow-x: hidden;
+   > h1{
+        background-color: $Purple;
+        color: $Mint;
+        font-size: 2rem;
+        font-family: 'Pacifico', cursive;
+    }
+    > main{
+    
+        background-color: $Purple;
+        color: $Mint;
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        font-family: 'Kanit', sans-serif;
+        > a{
+            background-color: $Purple;
+            color: $Mint;
+            text-decoration: none;
+            margin: 1rem;
+            font-size: 1rem;
+        
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+
+
+
+
+

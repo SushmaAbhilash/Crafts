@@ -1,0 +1,56 @@
+@import "colors";
+
+.shop{
+    overflow-x: hidden;
+}
+.shopTitle{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.products{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin: 4rem;
+}
+.product{
+    border-radius: 1rem;
+    width: 25rem;
+    height: 20rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product img{
+    width: 20rem;
+    height: 18rem;
+}
+.product .description{
+    text-align: center;
+    margin: 0.5rem;
+}
+.product p{
+    margin: 0.3rem;
+}
+.product:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.addtoCartBtn{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: $Purple;
+    color: $Butter;
+    padding: 0.3rem;
+    margin: 0.1rem;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+}

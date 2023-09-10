@@ -1,0 +1,193 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pacifico&display=swap');
+
+.home{
+    width: 100%;
+    height: 100vh;
+    
+    color: $Butter;
+    background-color: $Purple;
+    border: 0 0 200px 200px;
+   
+    
+    > main {
+        
+        color: #423364;
+        position: absolute;
+        display: flex;
+        text-transform: uppercase;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: center;
+        
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        
+    
+         > h1{
+            font-family: 'Kanit', sans-serif;
+            font-size: 1.5rem;
+            
+           
+        }
+         > p{
+            font-family: 'Kanit', sans-serif;
+            font-size: 1rem;
+            
+        }
+
+    }
+
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: no-repeat center url("../assets/background.jpg");
+        background-size: cover;
+        filter: blur(3px);
+        border-radius: 0 0 200px 200px;
+
+    }}
+
+    .home2{
+        width: 100%;
+        height: 100vh;
+        background-color: $Butter;
+        padding: 500px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -200px;
+
+        >img{
+            width: 35%;
+            animation: imgUp 0.7s linear infinite alternate;
+        }
+        >div{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+            height: 100vh;
+            > p{
+                color: $Purple;
+                letter-spacing: 2px;
+                word-spacing: 5px;
+            
+                font-size: 1.3rem;
+            }
+        }
+    }
+    @keyframes imgUp {
+        to{
+            transform: translateY(-15px);
+        }
+    }
+
+
+.home3{
+    width: 100%;
+    height: 120vh;
+    background-color: $Butter;
+    margin-top: -200px;
+    display: flex;
+    > div{
+        width: 70%;
+        height: 90vh;
+        background-color: $Mint;
+        border-radius: 0 200px 200px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        > h1{
+            width: 18rem;
+            text-transform: uppercase;
+            color: $Purple;
+            border-bottom: 2px solid $Purple;
+            font-size: 2rem;
+            padding: 0.5rem;
+        }
+        > p{
+           padding: 5rem;
+           letter-spacing: 1px;
+           word-spacing: 5px;
+           line-height: 170%;
+           font: italic 100 1.2rem;
+
+
+
+        }
+    }
+}
+
+.home4{
+    width: 100%;
+    height: 100vh;
+    background-color: $Butter;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    > div{
+        background-color: $Purple;
+        border-radius: 200px 0 0 200px;
+        width: 70%;
+        height: 70vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+
+        > h1{
+            color: $Butter;
+            text-transform: uppercase;
+            border-bottom: 2px solid $Butter;
+            padding: 0.5rem;
+            width: 140px;
+        }
+
+        > article {
+
+            display: flex;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            > div{
+                animation: imgUp 0.7s linear infinite alternate;
+                margin: 1rem;
+                height: 6rem;
+                width: 6rem;
+                background-color: $Butter;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 1.2rem;
+                color: $Purple;
+                cursor: pointer;
+                transition: all 0.5s;
+                &:hover{
+                    filter: invert(1);
+                }
+
+                svg{
+                    font-size: 4rem;
+                }
+                p{
+                    font: 900 1.2rem $Mint;
+                    
+                }
+            }
+        }
+
+    }
+}
