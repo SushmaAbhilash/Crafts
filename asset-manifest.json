@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Crafts/static/css/main.00b40c2d.css",
+    "main.js": "/Crafts/static/js/main.c34b01f2.js",
+    "static/media/shadowbox.jpg": "/Crafts/static/media/shadowbox.f472854d80181e8fcb09.jpg",
+    "static/media/Terracota.JPG": "/Crafts/static/media/Terracota.daa2c4f62095a94155e7.JPG",
+    "static/media/Bottle.jpg": "/Crafts/static/media/Bottle.5282c981b5cd173ab26d.jpg",
+    "static/media/description.png": "/Crafts/static/media/description.cebf3ddf7e84eceaf759.png",
+    "static/media/background.jpg": "/Crafts/static/media/background.c9edb708be78bea203e2.jpg",
+    "index.html": "/Crafts/index.html",
+    "main.00b40c2d.css.map": "/Crafts/static/css/main.00b40c2d.css.map",
+    "main.c34b01f2.js.map": "/Crafts/static/js/main.c34b01f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00b40c2d.css",
+    "static/js/main.c34b01f2.js"
+  ]
+}
