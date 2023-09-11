@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router , Routes, Route} from "react-router-dom"
+import {HashRouter as Router , Routes, Route} from "react-router-dom"
 
 import Home from './components/Home'
 import Footer from './components/Footer';
@@ -30,10 +30,11 @@ const App = () => {
         
         <Routes>
            <Route path='/' element={<Home />}/>
-           <Route path='/contact' element={<Contact />}/>
-           <Route path='/services' element={<Services />}/>
+           <Route path='/Contact' element={<Contact />}/>
+           <Route path='/Services' element={<Services />}/>
            <Route path='/Shop' element={<Shop />}/>
            <Route path='/Cart' element={<Cart />}/>
+           <Route path= '*' element={<div>Page Not Found</div>}/>
         </Routes>
         
       <Footer />
